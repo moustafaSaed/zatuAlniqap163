@@ -45,10 +45,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--mainclr);
-    background-image: url("../imgs/backg.png");
+    color: #ffffff;
+    background-image: url(../imgs/backg.png);
     background-size: cover;
     position: relative;
+    text-shadow: 3px 3px 2px #6d412a;
 }
 main .overlay {
     position: absolute;
